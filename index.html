@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="moneyDisplay">$500</h1>
+    </div>
+    <div class="container">
+        <label for="expenseType">Enter Expense Type</label>
+        <input type="text" placeholder="for example: school fees" name="expenseType" id="expenseType">
+        <label for="money">Enter Expense Amount</label>
+        <input type="number" id="money">
+        <button class="Add" onclick="addExpense()">Add &#10133;</button>
+    </div>
+    <div class="container">
+        <ul id="list">
+            
+        </ul>
+    </div>
+    <script src="./App.js"></script>
+</body>
+</html>
